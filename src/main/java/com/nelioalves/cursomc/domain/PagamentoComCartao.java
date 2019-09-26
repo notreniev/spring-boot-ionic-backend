@@ -25,6 +25,12 @@ public class PagamentoComCartao extends Pagamento{
 	public void setNumeroDeParcelas(Integer numeroDeParcelas) {
 		this.numeroDeParcelas = numeroDeParcelas;
 	}
+
+	@Override
+	public String toString() {
+		return "PagamentoComCartao [numeroDeParcelas=" + numeroDeParcelas + "]";
+	}
+	
 	
 	
 }
